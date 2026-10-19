@@ -2,7 +2,7 @@ import Foundation
 
 public struct Validator: Codable, Equatable {
     public enum Kind: String, Codable {
-        case rage
+        case range
         case length
         case format
         case selection
