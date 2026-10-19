@@ -7,7 +7,7 @@ public struct Validator: Codable, Equatable {
         case format
         case selection
     }
-    
+
     public let type: Kind
     public let min: Double?
     public let max: Double?

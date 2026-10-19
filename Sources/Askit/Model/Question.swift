@@ -17,11 +17,9 @@ public struct Question: Codable, Equatable, Identifiable {
     public let text: String
     public let hint: String?
     public let required: Bool?
-    
     public let choiceList: String?
     public let allowOther: Bool?
     public let multiline: Bool?
-    
     public let validators: [Validator]?
     public let showIf: Condition?
 }

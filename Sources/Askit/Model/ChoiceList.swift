@@ -9,5 +9,4 @@ public struct Choice: Codable, Equatable, Identifiable {
 public struct ChoiceList: Codable, Equatable, Identifiable {
     public let id: String
     public let choices: [Choice]
-    
 }

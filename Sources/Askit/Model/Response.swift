@@ -9,4 +9,3 @@ public struct Response: Codable, Equatable {
     public let submittedAt: String
     public let answers: [Answer]
 }
-
