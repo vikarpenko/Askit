@@ -23,4 +23,5 @@ public struct Question: Codable, Equatable, Identifiable {
     public let multiline: Bool?
     
     public let validators: [Validator]?
+    public let showIf: Condition?
 }
